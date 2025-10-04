@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from medical_daily_agent_demo_patched import MedicalDailyAgent
+from medical_daily_agent_demo import MedicalDailyAgent
 
 CACHE_DIR = Path('medical_daily_cache')
 
@@ -57,3 +57,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
